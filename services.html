@@ -14,9 +14,8 @@
     <div class="container">
       <div class="header__inner">
       
-        <img class="header__decor" src="./img/decor.png" alt="image">
-
-        <a class="logo" href="#">
+  
+        <a class="logo" href="index.html">
           <img class="logo__img" src="./img/logo.png" alt="logo">
           <span class="logo__text" >Единая ветеринарная служба</span>
         </a>
@@ -28,27 +27,63 @@
 
         <nav class="menu">
           <ul class="menu__list">
-            <li class="menu__list-cup__item">
-              <a class="menu__list-link" href="#">Главная</a>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="index.html">Главная</a>
             </li>
-            <li class="menu__list-cup__item">
-              <a class="menu__list-link" href="#">О компании</a>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="index.html#about">О компании</a>
             </li>
-            <li class="menu__list-cup__item">
-              <a class="menu__list-link" href="#">Специалисты</a>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="index.html#doctors">Специалисты</a>
             </li>
-            <li class="menu__list-cup__item">
-              <a class="menu__list-link menu__list-link--color" href="#">Услуги</a>
+            <li class="menu__list-item">
+              <a class="menu__list-link menu__list-link--color" href="#ser">Услуги</a>
             </li>
-            <li class="menu__list-cup__item">
-              <a class=" menu__list-link menu__list-link--color" href="#">Цены</a>
+            <li class="menu__list-item">
+              <a class=" menu__list-link menu__list-link--color" href="index.html#price">Цены</a>
             </li>
-            <li class="menu__list-cup__item">
-              <a class="menu__list-link menu__list-link--color" href="#">Контакты</a>
+            <li class="menu__list-item">
+              <a class="menu__list-link menu__list-link--color" href="#contacts">Контакты</a>
             </li>
           </ul>
         </nav>
 
+        <nav class="header__nav">
+          <div class="header__info header__info--mb">
+            <a class="header__tel" href="tel:+73512779503">+7 (351) 277 95 03</a>
+            <a class="header__mail" href="mailto:petsluzhba@yandex.ru">petsluzhba@yandex.ru</a>
+          </div>
+          <nav class="menu menu--mb">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Главная</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">О компании</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Специалисты</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Услуги</a>
+              </li>
+              <li class="menu__list-item">
+                <a class=" menu__list-link" href="#">Цены</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </nav>
+        <div class="menu-burger__header">
+          <span></span>
+        </div>
+      </div>
+      <picture>
+        <source  media="(max-width: 700px)" srcset="./img/decor-mb.png">
+        <img class="header__decor" src="./img/decor.png" alt="image">
+      </picture>
       </div>
     </div>
   </header>
@@ -56,9 +91,9 @@
   <section class="top">
     <div class="container">
       <h1 class="top__title">Круглосуточный выезд ветеринара на дом к вашему питомцу в течение <span>30 минут</span></h1>
+      <img class="top__img" src="./img/top-img.png" alt="image">
       <a class="top__btn button" href="">Вызвать ветеринара</a>
     </div>
-    <img class="top__img" src="./img/top-img.png" alt="image">
   </section>
 
   <section class="services">
@@ -132,7 +167,7 @@
     </div>
   </section>
 
-  <section class="price">
+  <section class="price" id="ser">
     <div class="container">
       <h2 class="price__title title">Врач на дом</h2>
       <div class="price__items price__items--services">
@@ -825,7 +860,7 @@
         </div>
         
         <div class="check-up__item check-up__item--long price__item">
-          <h4 class="price__item-title">
+          <h4 class="price__item-title price__item-title--with">
             "Чек-ап Кошки оптимальный": (Приём терапевта, общий анализ крови с лейкоформулой и СОЭ, биохимия крови отимальный, УЗИ брюшной полости, общий анализ мочи, обрезка когтей, тонометрия, консультация по анализам)
           </h4>
           <a class="price__btn button">
@@ -834,7 +869,7 @@
         </div>
 
         <div class="check-up__item check-up__item--big price__item">
-          <h4 class="price__item-title">
+          <h4 class="price__item-title price__item-title--with">
             "Чек-ап Кошки максимальный"
             (Приём терапевта, Общий анализ крови с лейкоформулой и СОЭ, биохимия максимальный, Т4 общий, УЗИ брюшной полости, Общий анализ мочи, обзорный рентген области грудной клетки в правой латеральной и вентро-дорсальной проекциях, ЭХО, обрезка когтей, тонометрия, консультация по анализам)
           </h4>
@@ -844,7 +879,7 @@
         </div>
 
         <div class="check-up__item check-up__item--big2 price__item">
-          <h4 class="price__item-title">
+          <h4 class="price__item-title price__item-title--with">
             "Чек-ап Собаки оптимальный"
             (Приём терапевта, Общий анализ крови с лейкоформулой и СОЭ, биохимия оптимальный, УЗИ брюшной полости, Общий анализ мочи, обрезка когтей, чистка ПАЖ, гигиенические обработки глаз и ушей, тонометрия, консультация по анализам)
           </h4>
@@ -854,7 +889,7 @@
         </div>
 
         <div class="check-up__item check-up__item--big price__item">
-          <h4 class="price__item-title">
+          <h4 class="price__item-title price__item-title--with">
             "Чек-ап 2 собаки максимальный"
             (Приём терапевта, Общий анализ крови с лейкоформулой и СОЭ, биохимия максимальный, УЗИ брюшной полости, Общий анализ мочи, обзорный рентген области грудной клетки в правой латеральной и вентро-дорсальной проекциях, ЭХО, обрезка когтей, чистка ПАЖ, гигиенические обработки глаз и ушей, тонометрия, консультация по анализам)
           </h4>
@@ -864,7 +899,7 @@
         </div>
 
         <div class="check-up__item check-up__item--big2 price__item">
-          <h4 class="price__item-title">
+          <h4 class="price__item-title price__item-title--with">
             "Чек-ап БАЗОВЫЙ"
             (Приём терапевта, Общий анализ крови с лейкоформулой и СОЭ + биохимия базовый, Общий анализ мочи, обрезка когтей, консультация по анализам)
           </h4>
@@ -874,7 +909,7 @@
         </div>
 
         <div class="check-up__item check-up__item--big price__item">
-          <h4 class="price__item-title">
+          <h4 class="price__item-title price__item-title--with">
             "Чек-ап Мочевыделительной системы"
             (Первичный приём, УЗИ МПС, ОК + БХ почечной профиль, Моча общий, Белок/Креатинин в моче, Гигиена глаз, ушей, чистка ПА желез, Стрижка когтей, Консультация по результатам исследований)
           </h4>
@@ -884,7 +919,7 @@
         </div>
 
         <div class="check-up__item check-up__item--big2 price__item">
-          <h4 class="price__item-title">
+          <h4 class="price__item-title price__item-title--with">
             "Чек-ап Кардио + Рентген + ЭХО". (Первичный приём кардиолога, Рентген грудной полости в 2-х проекциях, ЭХО, УЗИ БП, ОК+БХ сердечные маркеры, Гигиена глаз, ушей, чистка ПА желез, Стрижка когтей, Консультация по результатам исследований)
           </h4>
           <a class="price__btn button">
@@ -895,7 +930,7 @@
     </div>
   </section>
   
-  <section class="contacts">
+  <section class="contacts" id="contacts">
     <div class="container">
       <h2 class="contacts__title title">КОНТАКТЫ</h2>
       <p class="contacts__top">Телефон:</p>
@@ -910,7 +945,8 @@
     </div>
   </section>
 
- 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./js/main.js"></script>
 
 </body>
 </html>
